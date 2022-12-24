@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat:wght@300&display=swap');
+body{
+                      font-family: 'Montserrat', sans-serif;
+                      font-weight: 500;
+}
+*{
+                      margin: 0;
+                      padding: 0;
+}
+.container{
+                      max-width: 99vw;
+}
+.flex{
+                      display: flex;
+}
+.navbar li{
+      list-style: none; 
+      margin: 0 12px;
+      font-family: 'Montserrat', sans-serif;
+      
+
+}
+.brand{
+                      font-family: 'Dancing Script', cursive;
+                      font-weight: bold;
+                      font-size: 25px;
+                      margin:15px;
+}
+.navbar{
+                      display: flex;
+                      height:67px;
+}
+.topleft{
+                      width:50%;
+                      max-width: fit-content;
+                    margin-left: 8%;
+}
+.topright{
+                      width:50%;
+                      max-width: fit-content;
+}
+.section1{
+               
+             background-color:   #3A4F7A;   
+             color:whitesmoke;
+}
+.text-color{
+                      color: #3A4F7A;
+}
+header{
+  background-color: #FEFCF3;
+}
+.btn{
+           padding: 10px 12px;   
+           color:white;
+           border:2px solid  #3A4F7A;
+           background-color:   #3A4F7A; 
+           border-radius: 12px;      
+           font-family: 'Montserrat', sans-serif;
+           cursor:pointer;
+}
+.style-image{
+                      height:500px;
+                      
+}
+.size-img{
+  width: 60%;
+}
+.tree-style{
+  border-radius: 50%;
+  
+}
+.end-feature{
+  padding-top:7%;
+ 
+}
+.section2{
+  padding-bottom: 50px;
+  
+}
+.card-img{
+   width: 240px;
+   height:350px;
+  margin: 15px;
+  padding-bottom: 10px;
+   border-radius: 50px;
+   
+}
+.card{
+  width: 33%;
+  margin: 30px;
+  margin-right: 70px;
+  align-items: center;
+}
+.section3{
+  background-color: #3A4F7A ;
+}
+.footer-img{
+  width:100px;
+  
+}
+.logos{
+  width:55px;
+  height:55px;
+  margin: 5px;
+}
+.row1{
+  margin-left: 300px;
+}
+.row2{
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.col2{
+  margin-top: 50px;
+  text-align: center;
+}
+.text{
+  padding: 8px;
+  font-size: 12px;
+}
+.seemore{
+  text-decoration: none;
+  color: bisque;
+  padding-left: 50%;
+}
+.seemore :hover{
+  color: antiquewhite;
+}
